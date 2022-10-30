@@ -1,5 +1,7 @@
+## Go Syntax:
+
 ### Syntax Rules
-- GO is a case sensitive.
+- GO is case sensitive.
 - Names of public fields have initial uppercase letters.
 - Initial uppercase in GO means that the symbol is exported and is same as saying that it is public.
 
@@ -22,4 +24,16 @@
   fmt.Println(sum)  // Prints 45
 ```
 
+- The starting brace i.e. `{` must be on the same line where the code block begins
+- This is because otherwise, the white space will be considered as termianted loop i.e. : `for i := 0; i < 10; i++`
+- This is unlike Java or C++ where whitespace has no significance, so it doesn't matter if the openig brace is in the same line or in next line.
+
+### Built in Functions:
+- These functions are always available and don't need to be imported.
+- These are part of a package called `builtin`.
+- Complete list is available at: [Package builtin](https://pkg.go.dev/builtin)
+- Some examples are:
+  - len(string) : returns the length fo the string.
+  - panic(error) : stops execution and displays an error message 
+  - recover : To manage the behaviro of a panicking routine
 
