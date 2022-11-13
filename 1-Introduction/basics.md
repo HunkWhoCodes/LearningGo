@@ -37,3 +37,6 @@
   - panic(error) : stops execution and displays an error message 
   - recover : To manage the behaviro of a panicking routine
 
+#### GO Playground
+
+- Playground is an online IDE at [thtps://play.golang.org](https://play.golang.org)
