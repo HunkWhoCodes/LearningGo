@@ -39,4 +39,7 @@
 
 #### GO Playground
 
-- Playground is an online IDE at [thtps://play.golang.org](https://play.golang.org)
+- Playground is an online IDE at [https://play.golang.org](https://play.golang.org)
+- There are multiple code templates available in the playground.
+- Like Tests, Multiple Files,   Display Image, Sleep etc.
+- 
